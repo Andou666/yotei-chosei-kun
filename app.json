@@ -1,0 +1,7 @@
+{
+  "name": "schedule-arranger-n",
+  "description": "予定調整くん",
+  "logo": "",
+  "keywords": ["node"],
+  "image": "heroku/nodejs"
+}
