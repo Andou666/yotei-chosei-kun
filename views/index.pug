@@ -4,6 +4,8 @@ block content
   div.jumbotron.my-3
     h1.display-4 予定調整ｸﾝ
     p.lead 予定調整くんは、GitHubで認証でき、予定を作って出欠が取れるサービスです
+    if !user
+      img(src="/images/main.png").img-fluid
   if user
     div
       a(href="/schedules/new").btn.btn-info 予定を作る

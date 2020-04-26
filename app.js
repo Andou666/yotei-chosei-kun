@@ -65,7 +65,6 @@ const logoutRouter = require('./routes/logout');
 const schedulesRouter = require('./routes/schedules');
 const availabilitiesRouter = require('./routes/availabilities');
 const commentsRouter = require('./routes/comments');
-
 const app = express();
 app.use(helmet());
 
